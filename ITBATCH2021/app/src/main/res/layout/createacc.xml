@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="fill_parent"
+            android:layout_width="match_parent">
+
+            <CheckBox
+                android:id="@+id/staffc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="108dp"
+                android:minHeight="48dp"
+                android:text="Staff"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/studentc"
+                app:layout_constraintHorizontal_bias="0.37"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/studentc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="108dp"
+                android:layout_marginEnd="80dp"
+                android:minHeight="48dp"
+                android:text="Student"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/cname"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="292dp"
+                android:hint="Name"
+                android:minHeight="48dp"
+                android:textStyle="bold"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.238"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/regno"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="216dp"
+                android:hint="Register No"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.238"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="436dp"
+                android:hint="Email"
+                android:inputType="textWebEmailAddress"
+                android:minHeight="48dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.476"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="364dp"
+                android:hint="Phone Number"
+                android:inputType="text"
+                android:minHeight="48dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.238"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="496dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.476"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="568dp"
+        android:background="@color/purple_200"
+        android:text="Create account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- To be implemented Later if needed
+<TextView
+   android:id="@+id/textView"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_marginTop="28dp"
+   android:text="Already has a Account ?"
+   android:textColor="#6D4C41"
+   android:textSize="20dp"
+   android:textStyle="bold"
+   app:layout_constraintEnd_toEndOf="parent"
+   app:layout_constraintHorizontal_bias="0.083"
+   app:layout_constraintStart_toStartOf="parent"
+   app:layout_constraintTop_toBottomOf="@+id/verify"
+   tools:ignore="TextSizeCheck" />
+
+<Button
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_marginTop="80dp"
+   android:background="@color/purple_200"
+   android:text="Login"
+   app:layout_constraintEnd_toEndOf="parent"
+   app:layout_constraintStart_toEndOf="@+id/textView"
+   app:layout_constraintTop_toBottomOf="@+id/otp" /> -->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+
+}
+
+
+rootProject.name = "ITBATCH2021"
+include ':app'
